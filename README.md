@@ -28,7 +28,7 @@ After installation, import autokmeans in your Python script to perform automated
 from autokmeans import AutoKMeans
 
 # Initialize and fit the model to your data
-auto_km = AutoKMeans()
+auto_km = AutoKMeans(data, max_clusters, alpha_k)
 auto_km.fit(data, clustering_features)
 
 ```

@@ -100,7 +100,7 @@ class AutoKMeans:
 
         return best_k, results
 
-    def perform_clustering_auto(self, clustering_features : list) -> None:
+    def fit(self, clustering_features : list) -> None:
         self.clustering_features = clustering_features
         self.clustering_data = self.data[clustering_features]
         
